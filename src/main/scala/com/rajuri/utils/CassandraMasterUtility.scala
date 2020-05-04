@@ -15,7 +15,7 @@ object CassandraMasterUtility {
     val conf = new SparkConf()
       .setAppName("cassandra demo")
       .set("spark.cassandra.connection.host", "")
-      .set("spark.cassandra.connection.port", "3042")
+      .set("spark.cassandra.connection.port", "7199")
       .set("spark.cassandra.auth.username", "cassandra")
       .set("spark.cassandra.auth.password", "cassandra")
 
